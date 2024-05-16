@@ -18,6 +18,18 @@
 4. **Implement Search**:
    - Implement a search input that filters the displayed contacts based on their names.
 
+### Setup Instructions
+
+1. Navigate to the `task1-frontend` directory.
+2. Install dependencies: `npm install`.
+3. Start the development server: `npm start`.
+
+### Evaluation Criteria
+
+- Proper use of React hooks (`useState`, `useEffect`).
+- Correct implementation of the search filter.
+- Code readability and organization.
+
 ### Provided Mock Data
 
 Here is an example of the mock JSON data for the contacts:
@@ -43,15 +55,3 @@ Here is an example of the mock JSON data for the contacts:
     "phone": "555-555-5555"
   }
 ]
-
-### Setup Instructions
-
-1. Navigate to the `task1-frontend` directory.
-2. Install dependencies: `npm install`.
-3. Start the development server: `npm start`.
-
-### Evaluation Criteria
-
-- Proper use of React hooks (`useState`, `useEffect`).
-- Correct implementation of the search filter.
-- Code readability and organization.
