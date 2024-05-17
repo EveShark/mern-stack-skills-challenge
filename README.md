@@ -41,7 +41,3 @@ Welcome to the MERN Stack Skills Challenge! This repository contains a series of
 - **Best Practices**: Use of modern development practices and tools.
 - **Documentation**: Clarity and completeness of the README file and inline comments.
 - **Originality**: Ensure code originality and avoid plagiarism.
-
-## Contact Information
-
-For any questions or issues, please contact us at [sanket97@proton.me].
