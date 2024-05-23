@@ -27,7 +27,7 @@ Welcome to the MERN Stack Skills Challenge! This repository contains a series of
 
 ## Submission Guidelines
 
-1. Fork this repository.
+1. Clone this repository.
 2. Complete each task in its respective folder.
 3. Ensure each task is functional and well-documented.
 4. Commit and push your changes to your forked repository.
