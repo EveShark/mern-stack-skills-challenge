@@ -1,23 +1,40 @@
-# Task 1: Frontend (React.js) - Contact List Application
+<h1 align="center">Task 01: Contact Management Application</h1> 
 
-**Objective**: Build a simple React component to display a list of contacts and implement a search filter.
+**Objective**: Build a React application that displays contacts and implements filtering and sorting.
 
 ## Instructions
 
-1. **Create a React Component**:
+1. **Create a React Application**:
    - Create a React component named `ContactList`.
+   - This component will display all the contacts.
+   - Implement sorting and filtering within this component.
    - Use the `useState` and `useEffect` hooks as needed.
 
 2. **Fetch Contacts**:
-   - Fetch a list of contacts from a provided API endpoint (you can use a mock JSON file for this).
+   - Fetch a list of contacts from a provided API endpoint or use a mock JSON file for this.
 
 3. **Display Contacts**:
    - Display the contacts in a list format.
-   - Each contact should display the following information: name, email, and phone number.
+   - Each contact should display the following information
+      - name
+      - email
+      - mobile
 
-4. **Implement Search**:
-   - Implement a search input that filters the displayed contacts based on their names.
+4. **Implement Filtering**:
+   - Implement search functionality that filters the contacts based on the text entered by the user.
+   - Create a dropdown or toggle feature to switch between different filter types:
+     - **Filter by Name**: The search input will filter contacts by matching the name field.
+     - **Filter by Email**: The search input will filter contacts by matching the email field.
+     - **Filter by Mobile  Number**: The search input filters contacts by matching the number field.
+   - When the user switches between these filter types, the search behavior should update accordingly.
+   - Ensure the list dynamically updates as the user types or changes the filter type.
 
+5. **Sorting**:
+   - Implement a sorting option that allows the user to sort the contacts alphabetically by name, email
+   - Sorting should happen in both **ascending** and **descending** order.
+     - **Sort by Name**
+     - **Sort by Email**
+   
 ### Setup Instructions
 
 1. Navigate to the `task1-frontend` directory.
@@ -27,12 +44,11 @@
 ### Evaluation Criteria
 
 - Proper use of React hooks (`useState`, `useEffect`).
-- Correct implementation of the search filter.
+- Correct implementation of filtering with toggle for filtering by name, email, and mobile number.
+- Correct implementation of sorting with dropdown for sorting by name and email.
 - Code readability and organization.
 
-### Provided Mock Data
-
-Here is an example of the mock JSON data for the contacts:
+### Provided Mock Data. Add More.
 
 ```json
 [
@@ -40,18 +56,19 @@ Here is an example of the mock JSON data for the contacts:
     "id": 1,
     "name": "John Doe",
     "email": "john.doe@example.com",
-    "phone": "123-456-7890"
+    "mobile": 1234567890
   },
   {
     "id": 2,
     "name": "Jane Smith",
     "email": "jane.smith@example.com",
-    "phone": "987-654-3210"
+    "mobile": 9876543210
   },
   {
     "id": 3,
     "name": "Alice Johnson",
     "email": "alice.johnson@example.com",
-    "phone": "555-555-5555"
+    "mobile": 5555555555
   }
 ]
+```
