@@ -1,35 +1,38 @@
-# Task 2: Backend (Node.js, Express.js) - User and Task Management API
+<h1 align="center">Task 02: User and Task Management</h1>
 
-**Objective**: Set up a simple Express server with basic CRUD operations for managing users and their tasks.
+**Objective**: Build an Express server that supports CRUD functionality for managing users and their associated tasks.
 
 ## Instructions
 
-1. **Create an Express Server**:
-   - Set up an Express server in the `src` folder.
+1. **Set Up an Express Server**:
 
-2. **Implement CRUD Operations**:
-   - Create endpoints for the following operations:
-     - `GET /users`: Retrieve a list of users.
-     - `POST /users`: Add a new user.
-     - `PUT /users/:id`: Update an existing user.
-     - `DELETE /users/:id`: Delete a user.
-     - `GET /users/:id/tasks`: Retrieve tasks for a specific user.
-     - `POST /users/:id/tasks`: Add a new task for a specific user.
-     - `PUT /users/:id/tasks/:taskId`: Update an existing task for a specific user.
-     - `DELETE /users/:id/tasks/:taskId`: Delete a task for a specific user.
-   - Use in-memory storage (e.g., arrays) to store the users and tasks.
+   - Initialize an Express application
+   - Install necessary packages/libraries
+
+2. **Create CRUD Endpoints**:
+
+   - Implement the following routes for managing users and tasks:
+     - `GET /users`: Fetch a list of all users.
+     - `POST /users`: Create a new user.
+     - `PUT /users/:id`: Modify an existing user's details.
+     - `DELETE /users/:id`: Remove a user.
+     - `GET /users/:id/tasks`: Retrieve the tasks assigned to a specific user.
+     - `POST /users/:id/tasks`: Add a new task for a particular user.
+     - `PUT /users/:id/tasks/:taskId`: Edit an existing task for a specific user.
+     - `DELETE /users/:id/tasks/:taskId`: Delete a task assigned to a specific user.
+   - Store user and task data temporarily using in-memory storage (e.g., arrays).
 
 3. **Error Handling**:
-   - Implement proper error handling for each endpoint.
+   - Ensure comprehensive error handling for each endpoint to account for invalid inputs or operations.
 
 ### Setup Instructions
 
 1. Navigate to the `task2-backend` directory.
-2. Install dependencies: `npm install`.
-3. Start the server: `node src/index.js`.
+2. Install dependencies by running: `npm install`.
+3. Start the Express server: `node src/server.js`.
 
 ### Evaluation Criteria
 
-- Correct implementation of CRUD operations.
-- Proper error handling.
-- Code organization and clarity.
+- Accurate implementation of CRUD functionality.
+- Effective error handling throughout the application.
+- Clear and well-organized code structure.

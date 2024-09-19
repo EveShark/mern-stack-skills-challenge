@@ -6,16 +6,21 @@ Welcome to the MERN Stack Skills Challenge! This repository contains a series of
 
 ### Tasks
 
-1. **Frontend (React.js) - Contact List Application**
-2. **Backend (Node.js, Express.js) - Book Library API**
-3. **Database (MongoDB) - Movie Collection**
-4. **Integration - User and Task Management**
-5. **Bonus Task - Weather App with Authentication**
+1. **Task 01: Contact Management Application (React.js)**
+2. **Task 02: User and Task Management (Express.js)**
+3. **Task 03: Movie Collection (MongoDB Atlas)**
+4. **Task 04: Integration - User and Task Management**
 
 ### Skills Tested
 
-- React development, state management, and UI design
-- Setting up an Express server, creating RESTful APIs, and backend development
+- Frontend
+  - React Developer
+  - State Management
+  - UI/UX Designs
+- Backend
+  - Node.js
+  - Express.hs
+- creating RESTful APIs, and backend development.
 - Designing MongoDB schemas and performing CRUD operations
 - Full-stack integration and API consumption
 - Secure authentication practices
